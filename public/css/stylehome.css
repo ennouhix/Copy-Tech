@@ -1,0 +1,111 @@
+#neubar {
+  background: #8d99d2;
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.nav-item .active {
+  border-radius: 6px;
+  background: linear-gradient(145deg, #8d99d2, #8d99d2);
+  box-shadow: 4px 4px 8px #8d99d2, -4px -4px 8px #8d99d2;
+}
+
+#neubar .dropdown-menu a:hover {
+  color: #454545;
+}
+
+#neubar .nav-item {
+  margin: auto 4px;
+}
+
+#neubar a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#neubar .dropdown-menu {
+  background: #545454;
+}
+
+a.navbar-brand {
+  color: #454545;
+}
+
+/* Barre de navigation */
+#neubar {
+  background: #8d99d2;
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.nav-item .active {
+  border-radius: 6px;
+  background: linear-gradient(145deg, #8d99d2, #8d99d2);
+  box-shadow: 4px 4px 8px #8d99d2, -4px -4px 8px #8d99d2;
+}
+
+#neubar .dropdown-menu a:hover {
+  color: #454545;
+}
+
+#neubar .nav-item {
+  margin: auto 4px;
+}
+
+#neubar a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#neubar .dropdown-menu {
+  background: #545454;
+}
+
+a.navbar-brand {
+  color: #454545;
+}
+
+/* Formulaire au centre de la page */
+.main-box {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top, .bottom {
+  text-align: center;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+/* Ajoutez ces styles à votre fichier CSS */
+
+.radio-container {
+  display: flex;
+  flex-direction: row; /* Mettez les boutons radio dans une seule ligne */
+  justify-content: center; /* Centrez horizontalement le contenu */
+  gap: 10px; /* Espacement entre les boutons radio */
+}
+
+input[type="radio"] {
+  display: none; /* Masquer le bouton radio réel */
+}
+
+/* Style personnalisé pour le bouton radio simulé */
+input[type="radio"] + label {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Style pour le bouton radio sélectionné */
+input[type="radio"]:checked + label {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}ù0'4
